@@ -1,8 +1,8 @@
 <img align="left" height="120" src="https://cdn.discordapp.com/attachments/1017854329887129611/1073858292159352862/thing.png" alt="palera1n logo" style="float: left;"/>
-<h3 align="right">An iOS 15.0-16.3 work-in-progress, <br>(semi-)tethered checkm8 jailbreak</h3> 
+<h3 align="right">A hard mode iOS 15.0-16.3 work-in-progress, <br>(semi-)tethered checkm8 jailbreak, now with 100% more masochism</h3> 
 
 <p  align="right" >
-  <strong><a  href="https://ios.cfw.guide/installing-palera1n">Guide</a></strong>
+  <strong><a  href="GUIDE.md">Guide (bible)</a></strong>
   •
   <strong><a  href="COMMONISSUES.md">Common Issues</a></strong>
   •
@@ -16,13 +16,14 @@
 
 # How does it work?
 
-It boots the device with multiple patches required. On first run, it'll boot a ramdisk which dumps your onboard blob, creates a fakefs (if using semi-tethered), installs the loader app, and patches your kernel. 
+It (you :troll:) boots the device with multiple patches required. On first run, it'll boot a ramdisk which dumps your onboard blob, creates a fakefs (if using semi-tethered), installs the loader app, and patches your kernel. 
 
 # Warnings
 - We are **NOT** responsible for any data loss, or the result of a device being bricked. The user of this program accepts responsibility should something happen to their device. While nothing should happen, jailbreaking has risks in itself. If your device refuses to boot after using palera1n please use `iTunes` or `Finder` to restore iOS (or if you used tethered, use `--restorerootfs` at the end of your palera1n command).
 
 - palera1n will never work in VirtualBox, VMware or any virtual machine that doesn't support a PCI passthrough.
 
+- It's a fucking manual install of palera1n don't do this 
 # Requirements
 - Needs a checkm8 vulnerable iOS device on iOS 15.x or 16.x (`A8` - `A11`)
 	-	If you want the device to be semi-tethered, **you will need 5-10GB of space** for the fakefs. This means that 16GB devices cannot be semi-tethered
