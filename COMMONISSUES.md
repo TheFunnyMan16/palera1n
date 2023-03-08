@@ -220,10 +220,10 @@ This is an updated fix that should work with more tweaks than the Odyssey versio
 ## SEP Panic: :skg /skgs
 This happens due to having a passcode set on A10-A11 devices when jailbreaking (or having previously set a passcode on iOS 16, even if it's currently turned off).
 
-If you are on A10, use [checkp4le](https://github.com/guacaplushy/checkp4le).
+If you are on A10, use [palera1n-c]https://github.com/palera1n/palera1n-c
 <details>
 <summary>Why?</summary>
-checkp4le boots with checkra1n using a custom kernel patchfinder, which allows SEP to be re-enabled on A10
+palera1n-c allows SEP to run on A10 Processors
 </details>
 
 If you are on A11
@@ -236,7 +236,7 @@ If you are on A11
   4. Restore the backup. 
   5. Then try jailbreaking again.
 
-If you don't want to use checkp4le and just want to have a passcode, or if you're on A11, you can use FakePass from [this repo](https://repo.alexia.lol/) to have a passcode. However, this will only work in a jailbroken state (it can be bypassed by simply rebooting the device).
+If you don't want to use palera1n-c and just want to have a passcode, or if you're on A11, you can use FakePass from [this repo](https://repo.alexia.lol/) to have a passcode. However, this will only work in a jailbroken state (it can be bypassed by simply rebooting the device).
 
 ## Cannot download apps from the App Store
 Install Choicy from [this repo](https://opa334.github.io) and disable tweak injection into the App Store.
